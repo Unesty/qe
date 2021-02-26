@@ -1,7 +1,7 @@
 # qe
 Run program quietly on Linux
 
-'Usage: qe OPTIONS PROG ARGS'
+`Usage: qe OPTIONS PROG ARGS`
 Options:
 *	0 1 2 to close only specific fd
 *	-s(no setsid)
