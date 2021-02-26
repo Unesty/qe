@@ -1,4 +1,4 @@
 all:
 	$(CC) qe.c -static -O3 -flto -o qe 
 install:
-	cp qe /usr/local/bin/
+	install -m 755 qe /usr/local/bin/
