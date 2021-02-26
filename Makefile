@@ -1,2 +1,2 @@
 all:
-  $CC qe.c -static -O3 -flto qe 
+  $(CC) qe.c -static -O3 -flto -o qe 
